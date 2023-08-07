@@ -1,0 +1,30 @@
+{
+  "name": "simple-project",
+  "version": "1.0.0",
+  "description": "A boilerplate solidity template to start writing our smartcontract fast",
+  "license": "MIT",
+  "scripts": {
+    "compile": "npx hardhat compile",
+    "deploy": "npx hardhat run scripts/deployments/main.ts",
+    "test": "npx hardhat test ./test/unit/*.test.ts --network hardhat",
+    "test-staging": "npx hardhat test ./test/staging/*.spec.ts --network sepolia",
+    "mint": "npx hardhat run scripts/mint.ts --network sepolia",
+    "list-item": "npx hardhat run scripts/list-items.ts --network sepolia",
+    "cancel-listed": "npx hardhat run scripts/cancel-listed.ts --network sepolia",
+    "coverage": "npx hardhat coverage",
+    "format": "prettier --write ."
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.2",
+    "@openzeppelin/contracts": "^4.8.3",
+    "@types/node": "^20.3.2",
+    "hardhat": "^2.13.1",
+    "solhint": "^3.4.1"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "dotenv": "^16.0.3",
+    "path": "^0.12.7"
+  }
+}

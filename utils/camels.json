@@ -1,0 +1,13 @@
+{
+  "name": "Desert Camel",
+  "description": "The camel, known for its remarkable adaptability and resilience, is a fascinating mammal that has played a vital role in the lives of humans for centuries. With its distinctive hump and long, sturdy legs, the camel is perfectly suited to survive in harsh desert environments.",
+  "image": "https://ipfs.io/ipfs/QmUPjADFGEKmfohdTaNcWhp7VGk26h5jXDA7v3VtTnTLcW",
+  "attributes": [
+    {
+      "Kingdom": "Animalia",
+      "Phylum": "Chordata",
+      "Class": "Mammalia",
+      "Place": "land"
+    }
+  ]
+}
